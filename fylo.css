@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@300;400&family=Open+Sans:wght@400;700&family=Raleway:wght@700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 15px;
+    font-size: 16px;
+    /* width: 300px; */
+}
+
+.header-container {
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container img {
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+}
+
+.first-main img {
+    margin-top: 100px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.main-text2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 30px;
+}
+
+input {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 330px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+input {
+    border: 1px solid black;
+}
+
+button {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 330px;
+    height: 40px;
+    background-color: royalblue;
+    color: white;
+    border: 1px solid blue;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+p {
+    background-color: rgb(248, 248, 254);
+    padding-bottom: 50px;
+}
+
+p img {
+    background-color: rgb(248, 248, 254);
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+
+.second-main img {
+    display: block;
+}
+
+span {
+    background-color: rgb(248, 248, 254);
+    }
+
+.sp1 {
+    background-color: rgb(248, 248, 254);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+}
+
+ .sp2 {
+    background-color: rgb(248, 248, 254);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+    /* font-size: 14px; */
+    display: block;
+}
+
+a {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 0px;
+    text-decoration: none;
+    color: rgb(61, 160, 143);
+    padding-bottom: 0%;
+}
+
+u svg {
+    height: px;
+}
+
+u {
+    text-underline-offset: 10px;
+    margin-bottom: 50px;
+}
+
+.sp4 {
+    margin: 20px 40px auto;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    box-shadow: 1px -1px 20px hsl(0, 0%, 77%);
+}
+
+span svg {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+span {
+    font-size: 12px;
+}
+
+span img {
+    height: 40px;
+    border-radius: 5000px;
+    width: 40px;
+    margin-top: 15px;
+}
+
+.sp5 {
+    display: flex;
+}
+
+.founder {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.kyle {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.ceo {
+    font-size: smaller;
+}
+
+.blank {
+    background-color: rgb(248, 248, 254);
+    height: 70px;
+}
+
+.form3 {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    height: 370px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.in1 {
+    font-size: 15px;
+    padding-top: 20px;
+    margin-right: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.form-input2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-top: 2px;
+}
+
+.b2 {
+    width: 250px;
+}
+
+.i2 {
+    width: 250px;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    height: 700px;
+}
+
+footer svg {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+address {
+    text-decoration: none;
+}
+
+.phone-logo {
+    margin-left: 30px;
+    margin-top: 50px;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    padding-left: 9px;
+}
+
+.icon {
+    filter: invert(100%);
+    height: 50px;
+    margin-left: 100px;
+}
+
+hr {
+    color: rgb(61, 160, 143);
+    margin-top: 10px;
+    width: 140px;
+    justify-self: center;
+    margin-left: 100px;
+    border: 1px solid rgb(61, 160, 143);
+}
+
+@media screen and (min-width:800px) {
+    body {
+        padding-top: 25px;
+        font-size: 16px;
+    }
+
+    .header-container {
+        padding-right: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-container img {
+        height: 30px;
+        margin-left: 50px;
+    }
+li{
+    padding-left: 10px;
+}
+.first-main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.first-main img {
+    display: flex;
+    height: 400px;
+    margin-top:80px;
+    width: 600px;
+    padding-right: 90px;
+}
+.main-text {
+    padding-right: 400px;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+.main1{
+    font-size: 25px;
+    width: 100%;
+}
+    .main-text2 {
+        font-size: 18px;
+        width: 100%;
+    }
+    input{
+        width: 330px;
+        margin-left: 0px;
+    }
+    button{
+        width: 230px;
+        margin-right: 0px;
+    }
+    form{
+      display: flex;  
+margin-left: 30px;
+    }
+    .second-main img{
+        width: 1440px;
+    }
+    p{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    p img{
+        /* margin-left: 800px; */
+        /* margin-top: 500px; */
+        display: flex;
+        height: 500px;
+        width: 600px;
+        padding-right: 90px;
+        /* display: flex; */
+        /* flex-direction: row-reverse; */
+    }
+    .sp1{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-right: 300px;
+        width: 100%;
+        /* padding-right: 90px; */
+    }
+    .sp2{
+        font-size: 20px;
+    }
+}
+    
